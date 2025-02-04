@@ -4,7 +4,7 @@ This project demonstrates the barebones code and infrastrucutre needed to create
 
 It is written in Python, and is deployed/managed using Terraform.
 
-### Pre-requisits
+## Pre-requisits
 
 ### Bot Token
 You will need to setup a telegram bot and obtain its bot token, instructions can be found on the telegram website
