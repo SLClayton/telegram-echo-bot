@@ -1,5 +1,5 @@
 
-# Serverless AWS Telegram Echo Bot
+# Serverless AWS Telegram Echo Bot (Python)
 
 This project demonstrates the barebones code and infrastructure needed to create a basic serverless, event-driven, Telegram echo bot on AWS. 
 
