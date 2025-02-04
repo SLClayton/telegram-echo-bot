@@ -1,4 +1,5 @@
-# Summary
+
+# Serverless AWS Telegram Echo Bot
 
 This project demonstrates the barebones code and infrastrucutre needed to create a basic serverless, event-driven, Telegram echo bot on AWS. 
 
@@ -26,3 +27,32 @@ This project was built using python 3.10. However it should work with any most m
 
 Tutorial on how to install python based on your OS: https://realpython.com/installing-python/
 
+## Setup
+
+Clone the repo
+
+```
+git clone https://github.com/SLClayton/telegram-echo-bot.git
+```
+
+Go to the terraform directory
+
+```
+cd telegram-echo-bot/terraform
+```
+
+Initialise the terraform project
+
+```
+terraform init
+```
+
+Apply the terraform project, it will ask you to input your bot token, and then will ask you to confirm the deployment by typing 'yes'.
+
+```
+terraform apply
+```
+
+Add your bot on telegram using the username you created with the Botfather, and send it a message.
+
+![Untitled](https://github.com/user-attachments/assets/0b836dc3-9863-4613-8ce9-00a8241fba79)
