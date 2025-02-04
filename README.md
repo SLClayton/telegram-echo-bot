@@ -55,7 +55,7 @@ terraform apply
 
 Add your bot on telegram using the username you created with the Botfather, and send it a message.
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0b836dc3-9863-4613-8ce9-00a8241fba79" width="300">
+  <img src="https://github.com/user-attachments/assets/0b836dc3-9863-4613-8ce9-00a8241fba79" width="400">
 </div>
 
 
