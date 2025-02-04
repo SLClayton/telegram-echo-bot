@@ -12,7 +12,8 @@ This project utilises Telegram’s webhook functionality to trigger a single AWS
 ## Pre-requisits
 
 ### OS
-This project was built using Ubuntu Linux, however it should work seamlessly on any modern Linux or MacOS version too. Windows users should consider [installing WSL](https://learn.microsoft.com/en-us/windows/wsl/install) on their PC to run Linux. Or this project should still work with some minor changes if you know what you're doing.
+
+This project was built on Ubuntu Linux and should work on most modern Linux distributions or macOS without changes. On Windows, you can use the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) for a smoother experience. If you prefer running everything natively on Windows, be aware you may need to make a few minor adjustments.
 
 ### Bot Token
 You will need to setup a telegram bot and obtain its bot token. 
