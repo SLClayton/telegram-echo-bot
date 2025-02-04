@@ -31,7 +31,7 @@ An authenticated AWS CLI session is required to build AWS resources using terraf
 [Install Terraform CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 ### Python
-This project was built using python 3.10. However it should work with any most modern versions of python 3. If you use a different version, ensure to edit the lambda resource in main.tf to match the version you're using to avoid issues.
+This project was built using python 3.10. However it should work with most modern versions of python 3. If you use a different version, ensure to edit the lambda resource in main.tf to match the version you're using to avoid issues.
 
 [Tutorial on how to install python](https://realpython.com/installing-python/)
 
