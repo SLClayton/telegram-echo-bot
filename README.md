@@ -1,9 +1,9 @@
 
 # Serverless AWS Telegram Echo Bot
 
-This project demonstrates the barebones code and infrastrucutre needed to create a basic serverless, event-driven, Telegram echo bot on AWS. 
+This project demonstrates the barebones code and infrastructure needed to create a basic serverless, event-driven, Telegram echo bot on AWS. 
 
-It is written in Python, and is deployed/managed using Terraform.
+By using Telegram’s webhook approach in a serverless environment, you benefit from an event-driven model, meaning your bot only runs when a new message is 'pushed' from telegram. And there is no need to keep polling the telegram API waiting for new messages. This reduces costs by charging only for actual invocations (rather than continuously running server).
 
 ## Pre-requisits
 
