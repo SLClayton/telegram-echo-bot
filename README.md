@@ -61,10 +61,10 @@ Apply the terraform project, it will ask you to input your bot token, and then a
 terraform apply
 ```
 
-You can alternativley setup a [.tfvars file to manage the variables](https://spacelift.io/blog/terraform-tfvars) and input the telegram token there before applying with the file as an argument.
+You can alternativley setup a [.tfvars file to manage the variables](https://spacelift.io/blog/terraform-tfvars) and input the telegram token there before applying with the file as an argument. For example, if you create a file named `myvars.tfvars`. The you would use.
 
 ```
-terraform apply -var-file=<your-var-filename>.tfvars
+terraform apply -var-file=myvars.tfvars
 ```
 
 Add your bot on telegram using the username you created with the Botfather, and send it a message.
