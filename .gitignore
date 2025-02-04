@@ -1,0 +1,22 @@
+# Project specific
+*package.zip
+
+# Python
+__pycache__/
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+override.tfvars
+override.tfvars.json
+*_override.tfvars
+*_override.tfvars.json
+.terraform.lock.hcl
