@@ -1,6 +1,3 @@
-# Project specific
-*package.zip
-
 # Python
 __pycache__/
 
@@ -20,3 +17,7 @@ override.tfvars.json
 *_override.tfvars
 *_override.tfvars.json
 .terraform.lock.hcl
+
+# Misc
+*package.zip
+.mypy_cache/

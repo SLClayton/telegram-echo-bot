@@ -9,7 +9,7 @@ class TelegramChat:
 
     def send(self, text: str) -> None:
         resp = requests.post(
-            url=f"{self.base_url}/sendMessage", 
-            json={"chat_id": self.chat_id, "text": text}
+            url=f"{self.base_url}/sendMessage",
+            json={"chat_id": self.chat_id, "text": text},
         )
         resp.raise_for_status()
