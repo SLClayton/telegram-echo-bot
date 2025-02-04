@@ -8,7 +8,8 @@ By using Telegram’s webhook approach in a serverless environment, you benefit 
 ## Pre-requisits
 
 ### Bot Token
-You will need to setup a telegram bot and obtain its bot token, [instructions can be found on the telegram website](https://core.telegram.org/bots/tutorial#obtain-your-bot-token)
+You will need to setup a telegram bot and obtain its bot token. 
+[Obtain your bot token](https://core.telegram.org/bots/tutorial#obtain-your-bot-token)
 
 ### AWS CLI
 An authenticated AWS CLI session is required to build AWS resources using terraform. To download AWS CLI and login, follow the tutorials linked.
