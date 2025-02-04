@@ -55,4 +55,4 @@ terraform apply
 
 Add your bot on telegram using the username you created with the Botfather, and send it a message.
 
-![Untitled](https://github.com/user-attachments/assets/0b836dc3-9863-4613-8ce9-00a8241fba79)
+![Untitled](https://github.com/user-attachments/assets/0b836dc3-9863-4613-8ce9-00a8241fba79 =250x)
