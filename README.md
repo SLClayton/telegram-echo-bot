@@ -72,4 +72,11 @@ Add your bot on telegram using the username you created with the Botfather, and 
   <img src="https://github.com/user-attachments/assets/0b836dc3-9863-4613-8ce9-00a8241fba79" width="400">
 </div>
 
+## Removal
+
+The destroy command will remove the whole project.
+```
+terraform destroy
+```
+
 
