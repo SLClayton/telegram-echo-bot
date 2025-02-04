@@ -9,6 +9,7 @@ By using Telegram’s webhook approach in a serverless environment, you benefit 
 
 ### Bot Token
 You will need to setup a telegram bot and obtain its bot token. 
+
 [Obtain your bot token](https://core.telegram.org/bots/tutorial#obtain-your-bot-token)
 
 ### AWS CLI
