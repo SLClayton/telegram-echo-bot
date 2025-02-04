@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     request_body = json.loads(event["body"])
     message = request_body.get("message", {})
     chat_id = message.get("chat", {}).get("id")
-    text = message.get("text", "")
+    text = message.get("text")
 
     # Initialise the telegram client and send the message back
     if chat_id and text:
