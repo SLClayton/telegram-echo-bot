@@ -7,7 +7,7 @@ By using Telegram’s webhook approach in a serverless environment, you benefit 
 
 ## How it works
 
-This project utilises Telegram's webhook functionality to call a single AWS Lambda function via its function URL. This function then utilises the Telegram API to send a message back to whatever Telegram user has sent one to the bot. The Terraform file will build all necessary permissions and roles, as well as the Lambda. It will also call the Telegram API to set up the webhook to match the Lambda function's URL automatically.
+This project utilises Telegram’s webhook functionality to trigger a single AWS Lambda function using its Function URL. Whenever a user sends a message to the bot, Telegram delivers the update to that URL. The Lambda function then uses the Telegram API to send a response back to the sender. The Terraform configuration sets up all required AWS resources (permissions, roles, and the Lambda) and configures the Telegram webhook to point to the Function URL automatically after every deployment using Telegrams's API.
 
 ## Pre-requisits
 
